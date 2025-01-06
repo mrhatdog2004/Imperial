@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Imperial</h1>
+            <p id="greeting">Experience Excellence</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#new-products">New Products</a>
+            <a href="#best-products">Best Products</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section class="content active" id="home">
+            <div class="container">
+                <h2>Welcome to Imperial</h2>
+                <p>Discover premium products and services tailored for you.</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="content" id="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="products">
+                    <!-- Example Product Cards -->
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="Product 1">
+                        <h3>Classic Sofa</h3>
+                        <p>High-quality product for your needs.</p>
+                        <p class="price">Price: ₱28,000</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="Product 2">
+                        <h3>Modern Table</h3>
+                        <p>Stylish design for your dining space.</p>
+                        <p class="price">Price: ₱19,600</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="Product 3">
+                        <h3>Cozy Armchair</h3>
+                        <p>Comfortable seating for relaxation.</p>
+                        <p class="price">Price: ₱11,200</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="Product 4">
+                        <h3>Elegant Bookshelf</h3>
+                        <p>Store your books with style.</p>
+                        <p class="price">Price: ₱8,400</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="Product 5">
+                        <h3>Compact Wardrobe</h3>
+                        <p>Efficient storage solution.</p>
+                        <p class="price">Price: ₱22,400</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Products Section -->
+        <section class="content" id="new-products">
+            <div class="container">
+                <h2>New Products</h2>
+                <div class="products">
+                    <!-- New Product Cards -->
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="New Product 1">
+                        <h3>Innovative Desk</h3>
+                        <p>Innovative and stylish for modern needs.</p>
+                        <p class="price">Price: ₱16,800</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="New Product 2">
+                        <h3>Ergonomic Chair</h3>
+                        <p>Experience next-level performance.</p>
+                        <p class="price">Price: ₱14,000</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="New Product 3">
+                        <h3>Smart Lamp</h3>
+                        <p>Elegance combined with cutting-edge technology.</p>
+                        <p class="price">Price: ₱6,720</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="New Product 4">
+                        <h3>Multi-Purpose Cabinet</h3>
+                        <p>Organize your essentials with ease.</p>
+                        <p class="price">Price: ₱19,600</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="New Product 5">
+                        <h3>Luxury Bed Frame</h3>
+                        <p>Unparalleled comfort and design.</p>
+                        <p class="price">Price: ₱44,800</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Products Section -->
+        <section class="content" id="best-products">
+            <div class="container">
+                <h2>Best Products</h2>
+                <div class="products">
+                    <!-- Best Product Cards -->
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="Best Product 1">
+                        <h3>Premium Recliner</h3>
+                        <p>The most sought-after comfort and style.</p>
+                        <p class="price">Price: ₱33,600</p>
+                    </div>
+                    <div class="product">
+                        <img src="https://via.placeholder.com/250" alt="Best Product 2">
+                        <h3>Deluxe Dining Set</h3>
+                        <p>A perfect blend of luxury and utility.</p>
+                        <p class="price">Price: ₱67,200</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="content" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Imperial. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="c:\Users\Jenriel Isoy\OneDrive\Mga Dokumento\New folder\Midterm exam\Facebook_logo_(square).png" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="c:\Users\Jenriel Isoy\OneDrive\Mga Dokumento\New folder\twitter.png" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="c:\Users\Jenriel Isoy\OneDrive\Mga Dokumento\New folder\intagram.jpg" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
